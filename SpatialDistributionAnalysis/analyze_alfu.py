@@ -2,7 +2,7 @@
 """Export Origin-ready AlFu/N2 density maps and framework-distance curves.
 
 Example:
- python analyze_alfu_origin.py --cif 'AlFumarate_Charge2(1).cif' --movies 'MOVIE_~1.PDB' 'MOVIE_~2.PDB' 'MOVIE_~3.PDB' 'MOVIE_~4.PDB' --out Origin_results
+ python analyze_alfu.py --cif 'AlFumarate_Charge2(1).cif' --movies 'MOVIE_~1.PDB' 'MOVIE_~2.PDB' 'MOVIE_~3.PDB' 'MOVIE_~4.PDB' --out Origin_results
 
 Each 2D projection is an average of 3D number density along the omitted fractional
 axis (molecules/nm^3). Values are grid-cell-centered; framework overlays are
